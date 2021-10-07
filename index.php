@@ -3,12 +3,11 @@
 <head><title>listar archivos php</title></head>
 <body>
 <div>
+<ul>
 <?php
 include 'show_dir.php';
-$var1 = "Hola";
-$var2 = " mundo";
-echo "$var1.$var2";
 ?>
-</div> 
+</ul>
+</div>
 </body>
 </html>
